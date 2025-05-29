@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "com.platzi.android.mvvm.app"
+    namespace = "com.ldvarela.platzicalories"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.platzi.android.mvvm.app"
+        applicationId = "com.ldvarela.platzicalories"
         minSdk = 28
         targetSdk = 35
         versionCode = 1
