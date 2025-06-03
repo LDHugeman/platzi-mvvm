@@ -15,10 +15,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
-//import com.platzi.android.mvvm.app.presentation.onboarding.components.ActionButton
+import com.ldvarela.platzicalories.R
+import com.ldvarela.platzicalories.app.presentation.onboarding.components.ActionButton
 import com.ldvarela.platzicalories.app.ui.theme.LocalSpacing
 import com.ldvarela.platzicalories.app.ui.theme.PlatziCaloriesTheme
-import com.platzi.android.mvvm.app.R
 
 @Composable
 fun WelcomeScreen(
@@ -40,11 +40,11 @@ fun WelcomeScreen(
             style = MaterialTheme.typography.titleMedium
         )
         Spacer(modifier = Modifier.height(spacing.spaceMedium))
-        /*ActionButton(
+        ActionButton(
             text = stringResource(id = R.string.next),
             onClick = { onNextClick() },
             modifier = Modifier.align(Alignment.CenterHorizontally)
-        )*/
+        )
     }
 }
 
